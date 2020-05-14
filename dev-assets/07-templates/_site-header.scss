@@ -1,0 +1,23 @@
+.t-site-header {
+    
+    &__background{
+        background-color: black;
+    }
+
+    &__top {
+        padding-bottom: $grid-base * 2.5;
+        padding-top: $grid-base * 2.5;
+    }
+
+    &__menu {
+        margin-top: $grid-base * 2;
+
+        @include large-up {
+            text-align: right;
+            margin-top: 0;
+        }
+    }
+}
+
+
+
