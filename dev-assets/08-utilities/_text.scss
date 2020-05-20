@@ -6,8 +6,75 @@
     text-align: right;
 }
 
+.u-text-left {
+    text-align: left;
+}
+
 .u-text-lg-right {
     @include large-up {
         text-align: right !important;
     }
+}
+
+.u-text-padding {
+    padding-top: $grid-base *5 ;
+    padding-left: $grid-base *5 ;
+}
+
+.u-text-font {
+    font-family: serif;
+}
+
+.u-text-white {
+    color: $white;
+}
+
+.u-text-divider{
+    color: $white-low-op;
+}
+
+.u-text-justify {
+    text-align: justify;
+}
+
+.u-text-size {
+    font-size: 34px;
+}
+
+.u-text-tilt {
+    font-style: italic;
+}
+
+.u-text-blue {
+    color: $blue-light;
+}
+
+.u-text-category {
+    color: $verydark-blue;
+    text-align: center;
+}
+
+.u-text-s20 {
+    font-size: 20px;
+}
+
+.u-text-s14 {
+    font-size: 15px;
+}
+
+.u-text-foooter {
+    font-size: 13px;
+    font-family: serif;
+    margin-left: $grid-base;
+    color: $white-low-op;
+    margin-bottom: -2px;
+}
+
+.u-text-foooter-Copy {
+    font-size: 10px;
+    font-family: serif;
+    margin-left: $grid-base;
+    color: $blue-light;
+    margin-bottom: -2px;
+    margin-top: 5px;
 }

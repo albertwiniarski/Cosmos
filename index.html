@@ -1,24 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"
-    <title>"ProjectSpaceSPace"</title>
-    <link rel="stylesheet" href="prod-assets/style.scss">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmos</title>
+    <link rel="stylesheet" href="dev-assets/style.css">
 </head>
 <body>
-    
-    <header classs="t-site-header u-bg-black">
-        <div classs="o-container">
-            <div class="t-side-header__top">
-                <div class="o-row">
-                   <div class="o-col o-col--lg25">
-                       <img src="image/logo.png" alt="logo">
-                       <div></div>
-                   </div>
-            </div>  
+    <!-- Header plus menu -->
+    <header class="t-site-header">
+        <div class="u-bg-black">
+            <div class="o-container">
+                <div class="t-site-header__top">
+                    <div class="o-row o-row--center-y">
+                        <div class="o-col o-col--lg25">
+                         <img src="images/logo.png" alt="logo">
+                        </div>
+                        <div class="o-col o-col--lg75 t-site-header__menu">
+                            <nav class="c-nav">
+                                <a class="c-nav__item" href="#">Home</a>
+                                <a class="c-nav__item" href="#">About</a>
+                                <a class="c-nav__item" href="#">Blog</a>
+                                <a class="c-nav__item" href="#">Gallery</a>
+                                <a class="c-nav__item" href="#">Contact Us</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
         </div>
+            <div>
+                <div class="u-bg-blue">
+                    <div class="o-container">
+                        <div class="t-site-header__background-image">
+                        <div class="t-site-header__spaceship u-padding-left u-padding-top u-padding-bottom">
+                                <div class="o-row">
+                                    <div class="o-col o-col--lg35">
+                                        <h1 class="c-heading c-heading--level1 c-heading--white u-text-font u-text-tilt">Sonsectetur adispiscing elit.</h1>
+                                        <p class="t-site-header__small-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat modi consequatur recusandae adipisci qui aperiam laboriosam debitis, eaque assumenda, alias sit aspernatur, quibusdam sapiente. Voluptate dicta perspiciatis eaque cum molestiae!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
     </header>
+    <!-- Szara sekcja -->
+    <section>
+        <div class="u-bg-dark-gray">
+            <div class="o-container">
+                <div class="t-gray-section u-text-center">
+                    <span class="t-gray-text">Lorem ipsum dolor sit amet - </span>
+                    <span class="t-gray-text u-text-font">consectetur adipisicing elit.</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Info sekcja -->
+    <section>
+        <div class="u-bg-more-blue"> 
+            <div class="o-container">
+                <div class="t-info-section">
+                    <div class="o-row u-padding-left">
+                        <div class="o-col o-col--lg65"> 
+                            <p class="u-text-left u-text-white u-text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur cum incidunt facilis recusandae optio nihil officia quaerat blanditiis dicta rem iste, eaque, obcaecati asperiores vel facere quae, accusamus voluptatem. Expedita similique quas cum nulla, iusto fugiat. Blanditiis, at ratione impedit quod deleniti, nemo repellendus illo tenetur veniam saepe nam eveniet aspernatur suscipit fugit labore, nesciunt sit nostrum in magni quidem sed voluptatem. Incidunt consectetur delectus, alias adipisci magnam odio quisquam animi, quidem, impedit nostrum laboriosam neque est quam pariatur molestias! </p>
+                        </div>
+                        <div class="o-col o-col--lg33">
+                            <div class="t-photo-btn__window">
+                                <img class="c-icon-box" src="images/spacecraft.jpg" alt="zdjecie">
+                                <div class="t-photo-btn__texting">
+                                    <h2 class="c-heading u-text-font u-text-size u-text-tilt u-mb-1 u-text-blue">Lorem Ipsum Dolor!</h2>
+                                    <a class="c-btn c-btn--gradient" href="#">CLICK HERE!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sekcja z 4 zdjeciami -->
+    <section>
+        <div class="t-site-gallery">
+            <div class="o-container-special">
+                <div class="o-row">
+                    <div class="o-col o-col--lg25">
+                        <div class="c-segment">
+                            <img src="images/astronaut.jpg" alt="astronaut">
+                            <h3 class="c-heading u-text-category u-text-font u-text-s20 u-text-tilt u-mb-2 u-mt-2">Category 1</h3>
+                            <p class="u-text-category">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque porro asperiores iusto commodi! Perferendis, quia.</p>
+                        </div> 
+                    </div>
+                    <div class="o-col o-col--lg25">
+                        <div class="c-segment">
+                            <img src="images/earth.jpg" alt="astronaut">
+                            <h3 class="c-heading u-text-category u-text-font u-text-s20 u-text-tilt u-mb-2 u-mt-2">Category 2</h3>
+                            <p class="u-text-category">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque porro asperiores iusto commodi! Perferendis, quia.</p>
+                        </div>
+                    </div>
+                    <div class="o-col o-col--lg25">
+                        <div class="c-segment">
+                            <img src="images/spacecraft-small.jpg" alt="astronaut">
+                            <h3 class="c-heading u-text-category u-text-font u-text-s20 u-text-tilt u-mb-2 u-mt-2">Category 3</h3>
+                            <p class="u-text-category">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque porro asperiores iusto commodi! Perferendis, quia.</p>
+                        </div>
+                    </div>
+                    <div class="o-col o-col--lg25">
+                        <div class="c-segment">
+                            <img src="images/space-shuttle.jpg" alt="astronaut">
+                            <h3 class="c-heading u-text-category u-text-font u-text-s20 u-text-tilt u-mb-2 u-mt-2">Category 4</h3>
+                            <p class="u-text-category">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque porro asperiores iusto commodi! Perferendis, quia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- stopka -->
+    <footer>
+        <div class="u-bg-blue-footer">
+            <div class="o-container-special">
+                <div class="t-footer">
+                    <div class="o-row">
+                        <div class="o-col o-col--lg25 u-text-left">
+                            <h4 class="u-text-s14 u-text-font u-text-left u-ml-1 u-text-white">Social</h4>
+                            <p class="u-text-foooter">Google +</p>
+                            <div class="u-divider"></div>
+                            <p class="u-text-foooter">Facebook</p>
+                            <div class="u-divider"></div>
+                            <p class="u-text-foooter">Youtube</p>
+                            <div class="u-divider"></div>
+                        </div>
+                        <div class="o-col o-col--lg25">
+                            <h4 class="u-text-s14 u-text-font u-text-left u-ml-1 u-text-white">Heading placeholder</h4>
+                            <p class="u-text-foooter">Link Title 1</p>
+                            <div class="u-divider"></div>
+                            <p class="u-text-foooter">Link Title 2</p>
+                            <div class="u-divider"></div>
+                            <p class="u-text-foooter">Link Title 3</p>
+                            <div class="u-divider"></div>
+                        </div>
+                        <div class="o-col o-col--lg28">
+                            <h4 class="u-text-s14 u-text-font u-text-left u-ml-1 u-text-white">Newsletter</h4>
+                            <p class="u-text-foooter">Sign up for Our Newsletter</p>
+                            <div class="u-white-box"></div>
+                            <p class="u-text-foooter-Copy">Copyright 2023 Comapny name all rights reserved</p>
+                        </div>
+                        <div class="o-col o-col--lg20"> 
+                            <a class="c-btn-footer u-text-blue" href="#">Sign Up!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </footer>
 </body>
-</html>

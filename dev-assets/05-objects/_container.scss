@@ -13,3 +13,19 @@
         max-width: 1140px;
     }
 }
+
+.o-container-special {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 85px;
+    padding-right: 85px;
+    width: 100%;
+
+    @include medium-up {
+        max-width: 740px;
+    }
+
+    @include large-up {
+        max-width: 1140px;
+    }
+}

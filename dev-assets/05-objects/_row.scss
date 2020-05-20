@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: -$gutter * 6;
-    margin-right: -$gutter * 6;
+    margin-left: -$gutter;
+    margin-right: -$gutter;
 
     @include medium-up {
         flex-direction: row;
@@ -11,5 +11,9 @@
 
     &--center-y {
         align-items: center;
+    }
+    &--middle {
+        margin-left: -$gutter *-.5;
+        margin-right: -$gutter *-.5;
     }
 }

@@ -1,0 +1,13 @@
+.t-gray-section {
+    padding-top: $grid-base *1;
+    padding-bottom: $grid-base *1.25;
+    background-color: $dark-gray;
+
+}
+
+.t-gray-text {
+    font-weight: bold;
+    color: $gray-light;
+    font-size: 40px;
+    font-family: serif;
+}

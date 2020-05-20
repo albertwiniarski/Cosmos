@@ -1,23 +1,47 @@
 .t-site-header {
-    
-    &__background{
-        background-color: black;
-    }
+
 
     &__top {
         padding-bottom: $grid-base * 2.5;
+        padding-left: $grid-base * 7;
+        padding-right: $grid-base * 7;
         padding-top: $grid-base * 2.5;
+        background-color: $black;
     }
 
     &__menu {
-        margin-top: $grid-base * 2;
+        margin-top: $grid-base * 5;
 
         @include large-up {
             text-align: right;
             margin-top: 0;
         }
     }
+
+    &__divider{
+        background-color: $light-blue;
+        height: 1px;
+    }
+
+
+    &__spaceship{
+         margin: 0 auto;
+         text-align: left;
+     }
+
+     &__background-image{
+        background: url('../images/bg-adbox.jpg') center 0 no-repeat;
+    }
+
+    &__small-text{
+        font-size: 4;
+        color: $blue-h-text;
+        padding-top: $grid-base *2;
+        font-family: serif;
+    }
 }
+
+
 
 
 

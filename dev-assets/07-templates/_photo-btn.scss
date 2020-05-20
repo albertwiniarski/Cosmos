@@ -1,0 +1,13 @@
+.t-photo-btn {
+    &__texting {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__window {
+        position: relative;
+        text-align: center;   
+    }
+}
