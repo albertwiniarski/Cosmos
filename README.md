@@ -1,2 +1,1 @@
-# Cosmos sdsdsdasfa
-# sdsadssa
+# Cosmos Site Project Non-responsive
