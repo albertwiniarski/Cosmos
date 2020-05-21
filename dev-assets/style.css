@@ -88,8 +88,9 @@ a:hover {
         -ms-flex: 0 0 20%;
             flex: 0 0 20%;
     max-width: 20%;
-    margin-top: 35px;
+    margin-top: 59px;
     padding-right: 20px;
+    padding-left: 3px;
   }
 }
 
@@ -325,7 +326,8 @@ a:hover {
 }
 
 .c-btn--gradient {
-  background: linear-gradient(45deg, #3E5CC5 0%, #5B8AF8 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#0e5384), to(#2084cd));
+  background: linear-gradient(0deg, #0e5384 0%, #2084cd 100%);
   color: #FFFFFF;
   text-transform: uppercase;
 }
@@ -339,19 +341,17 @@ a:hover {
   border: none;
   border-radius: 5px;
   display: inline-block;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 1.5;
-  padding: .75rem 0;
+  font-size: 13px;
+  padding-top: 4px;
   text-align: center;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
-  width: 220px;
-  background-color: #1a75ff;
-  color: #FFFFFF;
+  width: 120px;
+  background-color: linear-gradient(0deg, #0e5384 0%, #2084cd 100%);
+  height: 25px;
 }
 
-.c-btn-footer:hover {
+.c-hover {
   background-color: black;
   color: #FFFFFF;
 }
@@ -815,6 +815,10 @@ a:hover {
   margin-left: 30px;
 }
 
+.u-padding-right {
+  padding-right: 30px;
+}
+
 .u-text-center {
   text-align: center;
 }
@@ -885,6 +889,7 @@ a:hover {
   margin-left: 10px;
   color: rgba(255, 255, 255, 0.555);
   margin-bottom: -2px;
+  padding-top: 10px;
 }
 
 .u-text-foooter-Copy {
@@ -901,21 +906,41 @@ a:hover {
           box-shadow: 0px, 10px;
 }
 
+.u-shad-btn {
+  -webkit-filter: drop-shadow(0px 5px 2px #000000);
+          filter: drop-shadow(0px 5px 2px #000000);
+}
+
+.u-shad-section {
+  -webkit-filter: drop-shadow(0px 2px 2px #000000) drop-shadow(0px -1px 0.3px rgba(255, 255, 255, 0.151));
+  filter: drop-shadow(0px 2px 2px #000000) drop-shadow(0px -1px 0.3px rgba(255, 255, 255, 0.151));
+}
+
+.u-shad-divid {
+  -webkit-box-shadow: 0px .7px #ffffff17;
+          box-shadow: 0px .7px #ffffff17;
+}
+
 .u-divider {
   height: 1px;
   background-color: #0e1f2c;
   margin-top: 2px;
+  border-radius: 5px;
 }
 
-.u-white-box {
-  height: 20px;
-  background-color: #FFFFFF;
-  margin-top: 10px;
-  margin-left: 10px;
-  border-radius: 5px;
+.u-white-box input[type=text] {
+  width: 100%;
 }
 
 .u-box-btn {
   padding-right: 20px;
+}
+
+.u-text-input {
+  height: 27px;
+  background-color: #FFFFFF;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
